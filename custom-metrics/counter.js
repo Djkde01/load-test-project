@@ -1,4 +1,4 @@
-import http, { CookieJar } from "k6/http";
+import http from "k6/http";
 import { Counter } from "k6/metrics";
 
 export const options = {
